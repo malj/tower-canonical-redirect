@@ -1,9 +1,13 @@
 # tower-canonical-redirect
 
 [![Build Status][build-badge]][build-url]
+[![Crates.io][crates-badge]][crates-url]
 
 [build-url]: https://github.com/malj/tower-canonical-redirect/actions
 [build-badge]: https://img.shields.io/github/actions/workflow/status/malj/tower-canonical-redirect/build.yaml?branch=master
+
+[crates-url]: https://crates.io/crates/tower-canonical-redirect
+[crates-badge]: https://img.shields.io/crates/v/tower-canonical-redirect.svg
 
 A [`tower`] middleware to enforce canonical hosts in HTTP requests. Useful when you want to redirect website users from insecure `http` connections and/or `www` subdomains to a single canonical `https` domain.
 
