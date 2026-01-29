@@ -12,3 +12,9 @@ categories = [
   "network-programming",
   "web-programming::http-server",
 ]
+
+[dependencies]
+http = "1.4.0"
+
+[dev-dependencies]
+test-case = "3.3.1"
