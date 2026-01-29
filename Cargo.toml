@@ -14,7 +14,9 @@ categories = [
 ]
 
 [dependencies]
+futures = "0.3.31"
 http = "1.4.0"
+tower = "0.5.3"
 
 [dev-dependencies]
 test-case = "3.3.1"
