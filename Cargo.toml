@@ -1,0 +1,14 @@
+[package]
+name = "tower-canonical-redirect"
+version = "0.1.0"
+rust-version = "1.85"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/malj/tower-canonical-redirect"
+description = "A Tower middleware to enforce canonical hosts in HTTP requests"
+keywords = ["tower", "middleware", "canonical", "redirect", "axum"]
+categories = [
+  "asynchronous",
+  "network-programming",
+  "web-programming::http-server",
+]
