@@ -1,5 +1,10 @@
 # tower-canonical-redirect
 
+[![Build Status][build-badge]][build-url]
+
+[build-url]: https://github.com/malj/tower-canonical-redirect/actions
+[build-badge]: https://img.shields.io/github/actions/workflow/status/malj/tower-canonical-redirect/build.yaml?branch=master
+
 A [`tower`] middleware to enforce canonical hosts in HTTP requests. Useful when you want to redirect website users from insecure `http` connections and/or `www` subdomains to a single canonical `https` domain.
 
 The middleware uses framework-agnostic [`http`] and [`futures`] abstractions, making it compatible with other crates such as [`hyper`], [`axum`], [`tonic`], [`warp`], etc.
