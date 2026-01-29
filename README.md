@@ -69,5 +69,7 @@ let layer = CanonicalRedirectLayer::builder("https://example.com")
 
 ## License
 
-[MIT](LICENSE)
+All code in this repository is free and open source software distributed under the terms of either license, at your option:
 
+- [MIT](LICENSE-MIT)
+- [Apache 2.0](LICENSE-APACHE)
